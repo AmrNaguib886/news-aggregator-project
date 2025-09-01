@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #F4F4F4;
+}
+
+header {
+    background: #f5972c;
+    color: rgb(48, 101, 245);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    width :49%;
+    /* margin: 0; */
+    text-align: center;
+    display:inline-block;
+    
+}
+h4 {width: 51%;
+/* h4 { margin:; */
+text-align: center;
+display:inline-block}
+/* .menu-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+} */
+
+/* .nav-drawer {
+    position: fixed;
+    top: 0;
+    right: -100px;
+    width: 100px;
+    height: 100%;
+    background: #1E3A8A;
+    color: white;
+    transition: right 0.3s ease-in-out;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.nav-drawer ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.nav-drawer ul li {
+    padding: 15px;
+    text-align: center;
+}
+
+.nav-drawer ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-drawer ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#news-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.news-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.news-item h3 {
+    color: #1E3A8A;
+}
+
+.news-item a {
+    color: #FF6A00;
+    text-decoration: none;
+}
+
+.news-item a:hover {
+    text-decoration: underline;
+}
+
+.nav-drawer {
+    position: fixed;
+    top: 0;
+    right: -100px;
+    width: 100px;
+    height: 100%;
+    background: #1E3A8A;
+    color: white;
+    transition: right 0.3s ease-in-out;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.close-button {
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
