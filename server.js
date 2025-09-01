@@ -163,7 +163,7 @@ app.post('/register-admin', async (req, res) => {
             [username, hashedPassword]
         );
         res.json({ message: 'Admin registered successfully' });
-    } catch (error) {.
+    } catch (error) {
         console.error("Error registering admin:", error);
         res.status(500).json({ error: "Failed to register admin" });
     }
